@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\MedicalRepresentativeScheduleMicroservice\\MedicalRepresentativeScheduleMicroservice.csproj": {}
+    "C:\\Users\\Prithwi.PRITHWIMAN\\Desktop\\MedicalRepresentativeScheduleFinal\\MedicalRepresentativeScheduleMicroservice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\MedicalRepresentativeScheduleMicroservice\\MedicalRepresentativeScheduleMicroservice.csproj": {
+    "C:\\Users\\Prithwi.PRITHWIMAN\\Desktop\\MedicalRepresentativeScheduleFinal\\MedicalRepresentativeScheduleMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\MedicalRepresentativeScheduleMicroservice\\MedicalRepresentativeScheduleMicroservice.csproj",
+        "projectUniqueName": "C:\\Users\\Prithwi.PRITHWIMAN\\Desktop\\MedicalRepresentativeScheduleFinal\\MedicalRepresentativeScheduleMicroservice.csproj",
         "projectName": "MedicalRepresentativeScheduleMicroservice",
-        "projectPath": "C:\\Users\\User\\Desktop\\MedicalRepresentativeScheduleMicroservice\\MedicalRepresentativeScheduleMicroservice.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\MedicalRepresentativeScheduleMicroservice\\obj\\",
+        "projectPath": "C:\\Users\\Prithwi.PRITHWIMAN\\Desktop\\MedicalRepresentativeScheduleFinal\\MedicalRepresentativeScheduleMicroservice.csproj",
+        "packagesPath": "C:\\Users\\Prithwi.PRITHWIMAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Prithwi.PRITHWIMAN\\Desktop\\MedicalRepresentativeScheduleFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Prithwi.PRITHWIMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
