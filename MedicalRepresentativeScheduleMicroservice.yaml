@@ -1,0 +1,33 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: medicalrepresentativescheduledep
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: MedicalRepresentativeScheduleMicroservice
+  template:
+    metadata:
+      labels:
+        app: MedicalRepresentativeScheduleMicroservice
+    spec:
+      containers:
+      - name: medicalrepresentativerepos
+        image: medicalrepresentativecr.azurecr.io/medicalrepresentativerepos:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: dsconfigsn
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: medicalrepresentativeschedulemicroservice
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: MedicalRepresentativeScheduleMicroservice
